@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage":  "https://fenota-viktoriya.github.io/goit-js-hw-10",
+  "homepage": "https://fenota-viktoriya.github.io/goit-js-hw-10",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
@@ -24,5 +24,9 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.11",
+    "notiflix": "^3.2.5"
   }
 }
