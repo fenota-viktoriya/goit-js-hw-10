@@ -7,9 +7,9 @@ import { renderMarkup } from './js/render-markup';
 
 const DEBOUNCE_DELAY = 300;
 
-formRef.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
+formRef.addEventListener('input', debounce(onInputText, DEBOUNCE_DELAY));
 
-function onInput() {
+function onInputText() {
   const text = formRef.value.trim();
 
   listRef.innerHTML = '';
